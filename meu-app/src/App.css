@@ -41,6 +41,19 @@
   color: #888;
 }
 
-button{
-  background-color: blue;
+/* centraliza o app vertical e horizontalmente */
+.app-center {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* remover regra global para botão (cores serão aplicadas inline)
+   Mantemos apenas um estilo base para acessibilidade */
+button {
+  font-size: 1rem;
 }
